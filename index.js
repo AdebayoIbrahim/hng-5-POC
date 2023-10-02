@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function moveToElement(element) {
     const elementRect = element.getBoundingClientRect();
-    assistant.style.left = `${elementRect.left - 50}px`; // Adjust if necessary
-    assistant.style.top = `${elementRect.top}px`;
+    assistant.style.left = `${elementRect.left - 10}px`;
+    assistant.style.top = `${elementRect.top + 30}px`;
   }
 
   function showExplanation(element) {
@@ -25,9 +25,8 @@ document.addEventListener("DOMContentLoaded", function () {
     alert("Hover over elements to get explanations!");
   });
 
-  // Hover event for dynamic 3D effects (optional)
+  //3d effects
   document.addEventListener("mousemove", function (event) {
-    // Replace with your logic for dynamic 3D effects
     const mouseX = event.clientX / window.innerWidth - 0.5;
     const mouseY = event.clientY / window.innerHeight - 0.5;
     assistant.style.transform = `rotateX(${mouseY * 360}deg) rotateY(${
