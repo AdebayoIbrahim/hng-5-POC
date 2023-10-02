@@ -35,7 +35,7 @@ This project is a proof-of-concept for an on-page assistant that appears in the 
 ## Usage
 
 1. Include the provided HTML, CSS, and JavaScript files in your project.
-2. Replace `'assistant.gif'` with your actual animated assistant file.
+2. Replace `'5Gjg.gif'` with your actual animated assistant file.
 3. Customize the content and styles according to your design preferences.
 4. Optionally, include the `anime.js` library for smoother animations.
 
