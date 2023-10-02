@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.assistant-container {
+  position: relative;
+  margin: 20px;
+}
+section.buttons {
+  margin-left: 25%;
+}
+
+.assistant {
+  width: 50px;
+  height: 50px;
+  background: url("./5GJg.gif") center/cover no-repeat;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  transition: all 0.5s ease;
+}
+
+.hover-icon {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  cursor: pointer;
+  font-size: 24px;
+  color: #3498db;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.hover-icon:hover {
+  transform: scale(1.1);
+  color: #fff;
+  background-color: #3498db;
+}
+
+button {
+  margin-right: 10px;
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: #297fb8;
+  transform: scale(1.05);
+}
